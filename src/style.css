@@ -15,7 +15,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Avenir, sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
@@ -30,11 +30,10 @@ body {
   box-sizing: border-box;
   background-image: url('images/Search.svg');
   background-repeat: no-repeat;
-  color: #687c94;
   border: 1px solid #e1e7ed;
   border-radius: 4px;
   box-shadow: 0 1px 8px 0 #3d4e611a;
-  font-weight: 400;
+  font-family: Avenir, sans-serif;
 }
 
 .search__input::placeholder {
